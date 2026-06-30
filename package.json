@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "description": "Автоматический обход проверок модов (Forge/Fabric) с умным автоопределением и подробным логированием.",
   "main": "index.js",
-  "author": "BlockMine Developer",
+  "author": "artemploxoy",
   "botpanel": {
     "icon": "Binary",
     "categories": [
