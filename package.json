@@ -1,0 +1,46 @@
+{
+  "name": "bypass-mods",
+  "version": "1.2.0",
+  "description": "Автоматический обход проверок модов (Forge/Fabric) с умным автоопределением и подробным логированием.",
+  "main": "index.js",
+  "author": "BlockMine Developer",
+  "botpanel": {
+    "icon": "Binary",
+    "categories": [
+      "Автоматизация",
+      "Утилиты"
+    ],
+    "settings": {
+      "actionsPreset": {
+        "type": "select",
+        "label": "Режим конфигурации",
+        "options": [
+          { "value": "auto", "label": "Автоматически (определять по серверу)" },
+          { "value": "custom", "label": "Вручную (настроить лоадер и бренд)" }
+        ],
+        "default": "auto"
+      },
+      "enableModLoader": {
+        "type": "select",
+        "label": "Мод-лоадер сервера",
+        "options": [
+          { "value": "forge", "label": "Forge" },
+          { "value": "fabric", "label": "Fabric" }
+        ],
+        "default": "forge"
+      },
+      "enableCustomBrand": {
+        "type": "string",
+        "label": "Кастомный бренд клиента",
+        "description": "Строка бренда клиента (например, forge, fabric, fml).",
+        "default": "forge"
+      },
+      "verboseLogging": {
+        "type": "boolean",
+        "label": "Подробное логирование модов",
+        "description": "Если включено, бот будет выводить в веб-консоль полный список модов сервера (названия и версии).",
+        "default": true
+      }
+    }
+  }
+}
