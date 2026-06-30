@@ -15,8 +15,14 @@
         "type": "select",
         "label": "Режим конфигурации",
         "options": [
-          { "value": "auto", "label": "Автоматически (определять по серверу)" },
-          { "value": "custom", "label": "Вручную (настроить лоадер и бренд)" }
+          {
+            "value": "auto",
+            "label": "Автоматически (определять по серверу)"
+          },
+          {
+            "value": "custom",
+            "label": "Вручную (настроить лоадер и бренд)"
+          }
         ],
         "default": "auto"
       },
@@ -24,8 +30,14 @@
         "type": "select",
         "label": "Мод-лоадер сервера",
         "options": [
-          { "value": "forge", "label": "Forge" },
-          { "value": "fabric", "label": "Fabric" }
+          {
+            "value": "forge",
+            "label": "Forge"
+          },
+          {
+            "value": "fabric",
+            "label": "Fabric"
+          }
         ],
         "default": "forge"
       },
@@ -42,5 +54,15 @@
         "default": true
       }
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artemploxoy1/bypass-mods"
+  },
+  "keywords": [
+    "blockmine",
+    "blockmine-plugin",
+    "minecraft",
+    "mineflayer"
+  ]
 }
